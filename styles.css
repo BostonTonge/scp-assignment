@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  color: white !important; /* Overdrives Modal text color*/
+  background-image: url(images/89815de3d46d319535f985f4e43887ac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body.index-page {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("images/scp.gif");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  display: none; 
+}
+
+.w3-bar img {
+  height: 40px; 
+  width: auto; 
+  margin-right: 10px; 
+  vertical-align: middle;
+} 
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  color: white;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  overflow: hidden; 
+  word-wrap:break-word; 
+}
+
+
+.euclid-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 2px rgba(255, 0, 0);
+  border-radius: 8px; 
+  box-shadow: 0 0 15px rgba(255, 0, 0); 
+  padding: 5px;
+  background-color: rgb(255, 0, 0); 
+}
+.safe-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 2px rgba(47, 0, 255);
+  border-radius: 8px; 
+  box-shadow: 0 0 15px rgba(47, 0, 255); 
+  padding: 5px;
+  background-color: rgb(47, 0, 255); 
+}
+
+.typewriter h3, p, li {
+  overflow: hidden;
+  border-right: .15em solid rgb(242, 242, 242); 
+  white-space: normal;
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+.warning-text, .safe-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 30px;
+  width: 40%;
+  margin: 20px auto;
+  border-width: 2px;
+}
+
+.warning-text {
+  color: red;
+  background-color: #0f0d0d;
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.safe-text {
+  color: rgb(0, 17, 255);
+  background-color: #0f0d0d;
+  border: 2px solid rgb(0, 17, 255);
+  box-shadow: 0 0 10px rgb(0, 17, 255);
+}
+.modal-content {
+  background-color: #8b0000; 
+  color: black;
+  border: 2px solid red;
+}
+

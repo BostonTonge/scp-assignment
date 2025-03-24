@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCP Foundation Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="index-page">
+  <div class="w3-bar w3-dark-grey w3-border">
+    <a href="index.html" class="w3-bar-item w3-mobile w3-hover-opacity">
+        <img src="images/scplogo.png" alt="SCP Logo" style="height:40px; width:auto;">
+    </a>
+    <div class="w3-right">
+        <a href="scp-002.html" class="w3-bar-item w3-button w3-mobile w3-hover-opacity">SCP-002</a>
+        <a href="scp-003.html" class="w3-bar-item w3-button w3-mobile w3-hover-opacity">SCP-003</a>
+        <a href="scp-004.html" class="w3-bar-item w3-button w3-mobile w3-hover-opacity">SCP-004</a>
+        <a href="scp-005.html" class="w3-bar-item w3-button w3-mobile w3-hover-opacity">SCP-005</a>
+        <a href="scp-006.html" class="w3-bar-item w3-button w3-mobile w3-hover-opacity">SCP-006</a>
+
+    </div>
+</div>
+
+  <div id="simpleModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Warning</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Unauthorized access is prohibited.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="typewriter">
+    <h3>Welcome to the SCP DATABASE</h3>
+    <p>Proceed with caution</p>
+    <p>This page contains information about various SCP subject, their descriptions, and containment procedures</p>
+    <p>Explore the webpages to expand your knowledge of these  creatures and the stories they compel</p>
+    <p>You might be shocked from what you learn and will never forget about it</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    window.onload = function () {
+        OpenBootstrapPopup();
+    };
+    function OpenBootstrapPopup() {
+        $("#simpleModal").modal('show');
+    }
+  </script>
+</body>
+</html>
